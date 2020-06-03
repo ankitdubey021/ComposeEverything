@@ -1,49 +1,29 @@
-# Basic Widgets Examples
+# Compose Everything
 
 This is aimed for complete beginners in Flutter, to get them acquainted with the various basic widgets in Flutter. 
-
-## Run this project
-
-**EDIT** : 
-No need of running the project, simply run the code in the new official Flutter online compiler [DartPad](https://dartpad.dartlang.org/flutter). All the DartPad links are given along with the example.
-
-#### Still want to run the project?
-
-* Fork this project.
-* Rename the directory to "flutter_widgets" or something with all_lowercase_and_underscore. (Unfortunately Flutter doesnt like CamelCases)
-* In your terminal, run <code>flutter create . </code> This will create the android and iOS projects for you. 
-* Run in your emulator or simulator. 
-
-### This project helped you? Buy me a cupcake to support me! [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/PoojaBhaumik)
  
 # Examples
 
-## Text
-
-### Try out Text widget and it's properties directly from [DartPad](https://dartpad.dev/d548285fd710d4c94cb1ff59835b85bd)
-
+## Circular ImageView
 
 <table>
   <tr><td> <b>Play with Text properties and styles</b> </td></tr>
   <tr>
 <td>
   <pre> 
-  Text(
-          "Hello Flutter It is Awesome WOW",
-          textAlign: TextAlign.right,
-          textDirection: TextDirection.ltr,
-          overflow: TextOverflow.ellipsis,
-          maxLines: 2,
-          style: TextStyle(
-              color: Colors.black,
-              fontSize: 50.0,
-              fontWeight: FontWeight.w200,
-              letterSpacing: 2.0,
-              wordSpacing: 40.0,
-              decoration: TextDecoration.overline,
-              decorationStyle: TextDecorationStyle.wavy),
-        ), 
-        </pre>
+  val avatarImage =  imageResource(R.drawable.avatar)
+  val imageModifier = 
+                    Modifier
+                    .preferredHeight(100.dp)
+                    .preferredWidth(100.dp)
+                    .fillMaxWidth()
+                    .clip(shape = RoundedCornerShape(50.dp))
+            
+            
+
+  Image(avatarImage,  modifier = imageModifier,contentScale = ContentScale.Crop)
+        
+   </pre>
 </td>
 <td>
   <img src = "https://github-bucket-2604.s3.us-east-2.amazonaws.com/Screenshot+2020-04-21+at+05.53.51.png" width = 200>
