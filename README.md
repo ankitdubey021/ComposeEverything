@@ -47,10 +47,11 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
  <td>
   <pre> 
   IconButton(onClick = {
-                   
+                //
                 }, icon = {
-                    Icon(asset = Icons.Default.Close)}
-   )
+                    Icon(asset = Icons.Default.Close)
+                   }
+  )
    </pre>
 </td>
 </tr>
