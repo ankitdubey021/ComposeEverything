@@ -7,7 +7,7 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
 ### Circular ImageView
 
 <table>
-  <tr><td> <b>Play with Text properties and styles</b> </td></tr>
+  
   <tr>
 <td>
   <pre> 
