@@ -19,7 +19,7 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
                      .clip(shape = RoundedCornerShape(50.dp))
             
             
-
+   <br>
    Image(avatarImage,  modifier = imageModifier,contentScale = ContentScale.Crop)
         
    </pre>
