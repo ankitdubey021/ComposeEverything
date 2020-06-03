@@ -20,7 +20,7 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
             
             
    <br>
-   Image(avatarImage,  modifier = imageModifier,contentScale = ContentScale.Crop)
+  Image(avatarImage,  modifier = imageModifier,contentScale = ContentScale.Crop)
         
    </pre>
 </td>
