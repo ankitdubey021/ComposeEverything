@@ -24,9 +24,7 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
         
    </pre>
 </td>
-<td>
-  <img src = "https://github-bucket-2604.s3.us-east-2.amazonaws.com/Screenshot+2020-04-21+at+05.53.51.png" width = 200>
-</td>
+
 </tr>
   </table>
   
