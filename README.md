@@ -4,10 +4,20 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
  
 # Examples
 
-### Circular ImageView
+### ImageView
 
 <table>
-  
+ <tr><td> <b>Simple Image</b> </td></tr>
+ 
+ <td>
+  <pre> 
+  val avatarImage =  imageResource(R.drawable.avatar)
+  Image(avatarImage)
+        
+   </pre>
+</td>
+ 
+  <tr><td> <b>Circular Image</b> </td></tr>
   <tr>
 <td>
   <pre> 
