@@ -38,6 +38,25 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
 </tr>
   </table>
   
+  
+### Button
+
+<table>
+ <tr><td> <b>Icon Button</b> </td></tr>
+ <tr>
+ <td>
+  <pre> 
+  IconButton(onClick = {
+                   
+                }, icon = {
+                    Icon(asset = Icons.Default.Close)}
+   )
+   </pre>
+</td>
+</tr>
+</table>
+
+  
 ## AppBar
 
 ### Try AppBar examples directly from [DartPad](https://dartpad.dev/bd6bb228f0be205648a74490f35f776f)
