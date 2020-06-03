@@ -4,7 +4,7 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
  
 # Examples
 
-## Circular ImageView
+### Circular ImageView
 
 <table>
   <tr><td> <b>Play with Text properties and styles</b> </td></tr>
@@ -12,16 +12,15 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
 <td>
   <pre> 
   val avatarImage =  imageResource(R.drawable.avatar)
-  val imageModifier = 
-                    Modifier
-                    .preferredHeight(100.dp)
-                    .preferredWidth(100.dp)
-                    .fillMaxWidth()
-                    .clip(shape = RoundedCornerShape(50.dp))
+  val imageModifier = Modifier
+                     .preferredHeight(100.dp)
+                     .preferredWidth(100.dp)
+                     .fillMaxWidth()
+                     .clip(shape = RoundedCornerShape(50.dp))
             
             
 
-  Image(avatarImage,  modifier = imageModifier,contentScale = ContentScale.Crop)
+   Image(avatarImage,  modifier = imageModifier,contentScale = ContentScale.Crop)
         
    </pre>
 </td>
