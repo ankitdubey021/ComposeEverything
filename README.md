@@ -57,6 +57,34 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
 </tr>
 </table>
 
+### Others
+
+<table>
+ <tr>
+  <td> <b>Divider</b> </td>
+   <td> <b>Spacer</b> </td>
+ </tr>
+ <tr>
+ <td>
+  <pre> 
+  Divider(
+       thickness = 1.dp,
+       color = colGray
+   )
+   </pre>
+</td>
+  
+  <td>
+  <pre> 
+  Spacer(modifier = 
+       Modifier.preferredHeight(40.dp)
+  )
+   </pre>
+</td>
+  
+</tr>
+</table>
+
   
 ## AppBar
 
