@@ -57,6 +57,38 @@ Hello everyone, The purpose of Compose Everything is to put everything in a sing
 </tr>
 </table>
 
+### Scrollable List
+
+<table>
+ <tr>
+  <td> <b>Vertical Scroller</b> </td>
+   <td> <b>Spacer</b> </td>
+ </tr>
+ <tr>
+ <td>
+  <pre> 
+VerticalScroller {
+   Column {
+     (1..10).forEach {
+         Text(
+            text = "$it",
+            style = TextStyle(
+                      fontSize = TextUnit.Companion.Sp(20),
+                      color = Color.Red
+                    )
+            )
+     }
+   }
+}
+   </pre>
+</td>
+  
+
+</tr>
+</table>
+
+
+
 ### Others
 
 <table>
