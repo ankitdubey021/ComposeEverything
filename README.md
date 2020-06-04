@@ -1,6 +1,6 @@
 # Compose Everything
 
-Hello everyone, The purpose of Compose Everything is to put everything in single plate. This page can be used by beginners of Jetpack Compose.
+Hello everyone, The purpose of Compose Everything is to put everything in a single plate. This page can be used by beginners for taking help and understanding in Jetpack Compose.
  
 # Examples
 
