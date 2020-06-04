@@ -1,6 +1,6 @@
 # Compose Everything
 
-This is aimed for complete beginners in Flutter, to get them acquainted with the various basic widgets in Flutter. 
+Hello everyone, The purpose of Compose Everything is to put everything in single plate. This page can be used by beginners of Jetpack Compose.
  
 # Examples
 
