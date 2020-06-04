@@ -69,7 +69,7 @@ Hello everyone, The purpose of Compose Everything is to put everything in a sing
   <pre> 
 VerticalScroller {
    Column {
-     (1..10).forEach {
+     (1..50).forEach {
          Text(
             text = "$it",
             style = TextStyle(
